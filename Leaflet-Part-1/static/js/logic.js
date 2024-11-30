@@ -6,7 +6,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
-const colors = ['yellow', 'darkorange', 'red', 'firebrick', 'darkred', 'maroon'];
+const colors = ['yellow', 'darkorange', 'red', 'firebrick', 'purple', 'darkred'];
 const depths = [-10, 10, 30, 50, 70, 90];
 
 // Create Markers
